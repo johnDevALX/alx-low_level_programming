@@ -1,17 +1,11 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
-#include "main.h"
 
-/**
-*print_line - prints a straight line
-*@n: parameter
-*Return:returns nothing
-*/
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+void print_remaining_days(int month, int day, int year);
+int convert_day(int month, int day);
 
-void print_line(int n)
-{
-	while (n-- > 0)
-	{
-		putchar('_');
-	}
-	putchar('\n');
-}
+#endif
