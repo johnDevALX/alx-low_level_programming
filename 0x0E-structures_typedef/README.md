@@ -1,0 +1,1 @@
+Structure, typedof readme file
